@@ -1,0 +1,2046 @@
+body{
+    overflow-x: hidden;
+}
+.container{
+  max-width: 1220px;
+}
+
+.fragment {
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: block;
+    padding: 15px 10px 0px 10px;
+    box-sizing: border-box;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(116, 125, 140, 0.5);
+}
+
+.fragment:hover {
+    box-shadow: 2px 2px 5px rgba(0,0,0,.2);
+}
+
+.fragment img { 
+    float: left;
+    margin-right: 10px;
+    padding-top: 5px;
+}
+
+#close {
+    float:right;
+    display:inline-block;
+    padding: 0px 9px 0px 9px;
+    background: rgb(255, 128, 128);
+    border-radius: 20px;
+    position: relative;
+    top: -20px;
+    color: white;
+    right: -15px;
+    cursor: pointer;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: black;
+    background-color: transparent;
+}
+
+table{
+    margin-left: 50px;
+    margin-right: 50px
+}
+
+.hrcls{
+    width: 35%;
+    float: left;
+    border-bottom: 2px solid #55BE21;
+    margin: 15px 0 0;
+}
+.hr-width-new{
+  width: 5% ;
+  margin: 8px 0 0;
+}
+.cardStyle{
+    background-color: transparent;
+    box-shadow: none;
+
+}
+.table-margin-left{
+    margin-left: -39px;
+}
+.tableListButton{
+  cursor: pointer;
+  padding-right: 12px;
+}
+.tableListBtnImg{
+  height: 20px;
+  width: 17px;
+  margin-top: -12px;
+}
+.donateAgainButton{
+    color: white;
+    background-color: #55BE21;
+    border-radius: 30px;
+    outline-color: transparent;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: none;
+    outline-width: 0px !important;
+    font-size: small;
+}
+.donateAgainButton:hover{
+  background-color: #00CD00 ;
+    border-color: #00CD00 ;
+    color: #ffffff;
+}
+.donateTabBtn{
+    color: white;
+    background-color: #55BE21;
+    border-radius: 30px;
+    outline-color: transparent;
+    padding-left: 25px;
+    padding-right: 25px;
+    box-shadow: none;
+    margin-top: -9px;
+    margin-bottom: 6px;
+    /*width: 100%;*/
+    outline-width: 0px !important;
+    font-size: 16px;
+}
+.fnt-1{
+  font-size: 28px;
+} 
+.para-fnt1{
+  font-size: 21px;
+    padding-left: 0;
+    color: rgb(33,29,40,0.4);
+    font-weight: 500;
+}
+.chng-step-field {
+    font-family: 'Poppins', sans-serif ;
+    padding: 8px 15px 8px 61px ;
+    width: 100%;
+    border: 0 ;
+    color: rgb(33,29,40,0.7) ;
+    border-bottom: 1.2px solid rgb(33,29,40,0.2) ;
+    border-radius: 0 ;
+    outline: none ;
+    height: 42px ;
+    background-color: transparent ;
+}
+.icons-dollr {
+    position: absolute;
+    top: 14px;
+    left: 24px;
+}
+.preset-amt-text span {
+    color: #211D28;
+    font-weight: 500;
+    font-size: 20px;
+    padding-right: 10px;
+}
+.amont-btn {
+    background: #ffffff;
+    border: 2px solid #55BE21;
+    padding: 3px 18px;
+    color: #55BE21;
+    margin-right: 12px;
+    font-size: 18px;
+}
+.amont-1000-btn {
+    background: #ffffff;
+    border: 2px solid #55BE21;
+    padding: 3px 20px;
+    color: #55BE21;
+    font-size: 18px;
+}
+.amont-btn:hover, .amont-1000-btn:hover {
+    background: #55BE21;
+    color: rgb(255, 255, 255, 0.9) !important;
+}
+.shul-box-donatebtn2{
+    color: white;
+    background-color: #55BE21;
+    border-radius: 30px;
+    outline-color: transparent;
+    /*padding-left: 25px;
+    padding-right: 25px;*/
+    box-shadow: none;
+    width: 100%;
+    outline-width: 0px !important;
+    font-size: 16px;
+}
+#creditcard , #instantcheck{
+  visibility: hidden;
+}
+.radiobtntyp{
+  cursor: pointer;
+  color: rgb(33, 29, 40,.2);
+  font-weight: 600 !important;
+}
+.modalPageDouleboxMarginT{
+  margin-top: 35px;
+}
+.dou1 {
+    padding-left: 0px;
+}
+.dou2 {
+    padding-left: 12px;
+}
+.list-text-color1{
+    color: #211D28;
+    font-size: 28px;
+    font-weight: 500;
+}
+.web-box-background {
+   margin-right: 8px ;
+    margin-left: 8px;
+    cursor: pointer;
+    border-radius: 10px;
+    background: rgb(241, 242, 246,0.9);
+    box-shadow:none;
+}
+.list-text-color2 {
+    color: #211D28;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    margin-bottom: 22px !important;
+}
+.nxtbtn-step-green{
+  color: rgb(33, 29, 40) !important;
+    border: 3px solid rgb(85, 190, 33);
+    padding: 8px 62px ;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif ;
+    font-weight: 600 ;
+    border-radius: 30px ;
+}
+.nxtbtn-step-green:hover{
+background: #55BE21;
+    color: rgb(255, 255, 255, 0.9) !important;
+}
+#creditcard:checked + .radiobtntyp {
+    
+    border-bottom: 1px solid #55BE21;
+    color: rgb(33, 29, 40,0.7) ;
+    padding-bottom: 8px;
+   
+}
+#instantcheck:checked + .radiobtntyp {
+   border-bottom: 1px solid #55BE21;
+   color: rgb(33, 29, 40,0.7) ;
+   padding-bottom: 8px;
+}
+.logoImgdiv{
+  border: 2px dashed rgb(116, 125, 140,.2);
+    width: 578px;
+    height: 145px;
+    border-radius: 8px;
+    margin-bottom: -22px;
+    text-align: center;
+    padding: 62px 0;
+}
+.ShulImgdiv{
+  border: 2px dashed rgb(116, 125, 140,.2);
+    width: 940px;
+    height: 157px;
+    border-radius: 8px;
+    text-align: center;
+    padding: 67px 0;
+    /*margin-bottom: -22px;*/
+}
+.ShulImgdiv p {
+  font-size: 20px;
+  color: rgb(116, 125, 140,0.8);
+}
+.ShulImgdiv p i{
+  font-size: 28px;
+  color: rgb(116, 125, 140);
+}
+.ShulImgdiv p span {
+  padding-left: 16px;
+}
+.logoImgdiv p {
+  font-size: 16px;
+  color: rgb(116, 125, 140,0.8);
+}
+.logoImgdiv p i{
+  font-size: 24px;
+  color: rgb(116, 125, 140);
+}
+.logoImgdiv p span {
+  padding-left: 14px;
+}
+.lab-colr {
+    font-weight: 500 ;
+    color: rgb(33,29,40,0.6) ;
+}
+.tb-cont-size {
+    font-size: 18px;
+    font-weight: 500;
+}
+.tb-cont-size span {
+    font-size: 15px;
+    color: rgb(33,29,40,0.7) !important;
+}
+.honor-text {
+    color: rgb(33,29,40,0.6) !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+}
+.stepform-table-cross-button{
+  opacity: 0;
+  border: none;
+}
+.tb-wg {
+    font-weight: 600;
+}
+.fnt-2 {
+    font-size: 28px;
+}
+.cvv-input {
+    position: absolute;
+    top: 16.5rem;
+    left: 18.2rem !important;
+    padding: 4px 4px !important;
+    width: 14%;
+    font-size: 12px;
+    margin-top: -30px;
+    margin-right: 21px;
+    left: -51px;
+    border-radius: 3px;
+    border: 0 !important;
+    color: #ffffff !important;
+    border: transparent !important;
+    float: right;
+    outline: none !important;
+    background-color: rgb(33,29,40,0.5) !important;
+}
+.paymentMode-donateBtnMt{
+  margin-top: -16px;
+}
+.donateTabBtn:hover , .ViewButton:hover , .shul-box-donatebtn2:hover{
+  background-color: #00CD00 ;
+    border-color: #00CD00 ;
+    color: #ffffff;
+}
+.chng-step-field::placeholder{
+  font-weight: 500;
+ color: rgb(33,29,40,0.7) !important; 
+ font-size: 20px;
+ letter-spacing: 0px;
+}
+.ViewButton {
+    color: white;
+    background-color: #747D8C;
+    border-radius: 30px;
+    outline-color: transparent;
+    /*padding-left: 25px;
+    padding-right: 25px;*/
+    width: 100%;
+    box-shadow: none;
+    outline-width: 0px !important;
+    font-size: 16px;
+}
+.btn .donateAgainButton:hover{
+    color: white;
+    background-color: #00CD00 !important;
+}
+
+
+
+table.dataTable.no-footer{
+  border-bottom: none !important;
+}
+table{
+    margin: auto;
+    border-collapse: separate !important;
+    border-spacing: 0 20px !important;
+    
+}
+tr, td {
+    background-color: white;
+}
+table.dataTable thead th, table.dataTable thead td {
+    border-bottom: none;
+    display: none;
+}
+.change-padding-donatetable td{
+  padding: 20px 12px 6px 18px !important;
+}
+.table th, .table td {
+        border-top: none;
+}
+.tab-first-td-radius{
+  border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.tab-last-td-radius{
+  border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.rowDescriptionText{
+    color:  #211D28;
+    font-weight: bold;
+    font-size: 20px;
+}
+.rowPrice{
+    color:  #211D28;
+    font-weight: bold;
+    font-size: 20px;
+    padding-right: 22px;
+    border-right: 1px solid rgb(116, 125, 140, 0.7)
+}
+
+.rowDescriptionDate{
+  padding-right: 7rem;
+    color: rgb(116, 125, 140, 0.7) 
+}
+/*Modify Jquery Data-table pagination*/
+.dataTables_wrapper .dataTables_paginate {
+    float: none;
+    text-align: center;
+    padding-top: 0.25em;
+}
+.paginate_button .previous{
+  display: none !important;
+}
+
+.paginate_button .current{
+  border : none !important;
+  background-color: transparent !important;
+}
+.paginate_button:hover {
+  border : none !important;
+  background-color: transparent !important;
+  color: 
+}
+
+#donationTable_next{
+    border: none;
+    background: none;
+    color: rgb(116, 125, 140, 0.7) !important;
+    border-left: 1px solid black !important;
+    padding-left: 30px;
+}
+#donationTable_next:hover{
+    border: none;
+    color: rgb(116, 125, 140, 0.7) !important;
+    background: none;
+    border-left: 1px solid black !important;
+    padding-left: 30px;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    color: #333 !important;
+    border: 1px solid #979797;
+    background-color: white;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fff), color-stop(100%, #dcdcdc));
+    background: -webkit-linear-gradient(top, #fff 0%, #dcdcdc 100%);
+    background: -moz-linear-gradient(top, #fff 0%, #dcdcdc 100%);
+    background: -ms-linear-gradient(top, #fff 0%, #dcdcdc 100%);
+    background: -o-linear-gradient(top, #fff 0%, #dcdcdc 100%);
+    background: transparent;
+    border: none !important;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button:active {
+    outline: none !important;
+    background-color: #2b2b2b;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2b2b2b), color-stop(100%, #0c0c0c));
+    background: -webkit-linear-gradient(top, #2b2b2b 0%, #0c0c0c 100%);
+    background: -moz-linear-gradient(top, #2b2b2b 0%, #0c0c0c 100%);
+    background: -ms-linear-gradient(top, #2b2b2b 0%, #0c0c0c 100%);
+    background: -o-linear-gradient(top, #2b2b2b 0%, #0c0c0c 100%);
+    background: transparent;
+    box-shadow: none;
+    border: none !important;
+}
+
+#tag-more-table_paginate{
+      float: none;
+    text-align: center;
+    padding-top: 0.25em;
+    margin-top: 25px;
+    background-color: rgb(241, 242, 246,.68);
+}
+/*.selectStateDropDown{
+    width: 200px;
+    box-shadow: none;
+    border-radius: 5px;
+    outline-width: 0px !important;
+    outline-color: transparent;
+    border: 1px solid rgb(116, 125, 140, 0.7)
+    color : rgb(116, 125, 140, 0.7);
+    background-color: inherit;
+}
+.selectStateDropDown option{
+    color: rgb(116, 125, 140, 0.7);
+
+}*/
+.card-body.danatetable-extraPadding{
+  padding-top: 0;
+}
+.selectStateDropDown{
+  width: 200px;
+  overflow: hidden;
+  border: 1px solid rgb(116, 125, 140, 0.7);
+  position: relative;
+  /*padding: 10px 0;*/
+}
+.selectStateDropDown:after{
+  width: 0; 
+  height: 0; 
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #f00;
+  position: absolute;
+  top: 40%;
+  right: 5px;
+  content: "";
+  z-index: 98;
+ }
+.selectStateDropDown select{
+  width: 220px;
+  height: 10px;
+  border: 0;
+  position: relative;
+  z-index: 99;
+  background: none;
+    outline-width: 0px !important;
+    outline-color: transparent;
+    bottom: 5px !important;
+}
+
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+} 
+
+.web-font-text{
+  color: rgb(33, 29, 40,.5);
+  font-size: 18px;
+  font-weight: bold;
+  border-right: 1px solid rgb(112, 112, 112 , 0.2);
+ padding-right: 28px;
+}
+.web-font-text-1
+{
+  color: rgb(33, 29, 40,.5);
+  font-size: 18px;
+  font-weight: bold;
+ 
+}
+.web-font-text span ,.web-font-text-1 span{
+  font-size: 26px;
+  color: rgb(33, 29, 40);
+}
+#mainShulImageContainer{
+  width: 940px;
+  height: 157px;
+  overflow-x: scroll;
+}
+.bg-ItemBar{
+  background-image: url('../img/backgroundItemBarLine.png');
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+.progress-box .title {
+  font-size: 15px;
+}
+.progress {
+    box-shadow: none;
+    border-radius: 10px;
+}
+.progress-box .progress {
+  height: 10px;
+  overflow: visible;
+}
+
+.progress-bar{
+  background-color:  #55BE21;
+}
+
+.progress-box .progress .progress-bar {
+  border-radius: 6px;
+  -webkit-animation: animate-positive 4s;
+          animation: animate-positive 4s;
+  overflow: visible !important;
+}
+.bar-border1{
+  border-radius: 0px !important;
+}
+.progress-box .progress .progress-value {
+  position: absolute;
+  top: -35px;
+    right: -15px;
+    font-size: 13px;
+    padding: 4px 7px;
+    background: #55BE21;
+    color: #FFFFFF !important;
+}
+.progress-box .progress .progress-value::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #55BE21 transparent transparent transparent;
+}
+@-webkit-keyframes animate-positive {
+  0% {
+    width: 0;
+  }
+}
+
+@keyframes animate-positive {
+  0% {
+    width: 0;
+  }
+}
+.bar-border1{
+  border-radius: 0px !important;
+}
+.card .card-body {
+  padding-right: 1.5rem;
+}
+.by-loc{
+color: rgb(33,29,40,.3);
+    font-size: 17px;
+    padding: 5px 9px 0 0px;
+}
+.direct-wthnew{
+  width: 180px;
+}
+.chng-filed
+{
+ padding: 5px 20px;
+    width: 243px;
+    color: rgb(33,29,40,0.7) !important;
+    border: 1px solid rgb(33,29,40,0.1);
+    border-radius: 8px !important;
+    outline: none !important;
+    height: 38px !important;
+    background-color: transparent;
+}
+.searchBtn{
+    margin-left: -40px;
+}
+.form-row{
+    margin-top: -5px;
+}
+.searchInput{
+    height: 38px;
+    padding: 18px;
+    background: transparent;
+    outline-color: transparent;
+    outline-width: 0px;
+    outline: none;
+    border-radius: 8px;
+    border: 1px solid rgb(33,29,40,0.1);
+}
+.searchInput:focus{
+  border-color: #55BE21;
+}
+.tag-page-heading{
+  margin-top: -20px;
+  margin-bottom : 0;
+  color: rgb(33, 29, 40,0.6);
+  font-weight: 500;
+
+}
+.progressBox-Mt-5{
+ margin-top: 30px;
+ margin-bottom: -2px; 
+}
+.tagged-card-name{
+  font-weight: bold;
+}
+.main-tagged-card{
+  background-color: white;
+  padding: 25px 15px 15px 25px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.tableTag-margin-left1{
+  margin-left: -25px;
+}
+.tagged-card-tags{
+  color: rgb(33, 29, 40,.5);
+  font-size: 14px;
+  font-weight: 600;
+}
+.tagged-card-text{
+  color: rgb(33, 29, 40,.5);
+  margin-top: 25px;
+  font-size: 18px;
+}
+.completeIconSize{
+  height: 15px;
+}
+.tagged-card-main-img{
+  height: 135px;
+}
+.invilink-text{
+  font-size: 15px;
+  font-weight: 700;
+  padding-right: 10px;
+}
+.invite-link-input{
+        padding: 8px 13px 8px 9px;
+    background: #F1F2F6;
+    outline-color: transparent;
+    color: #747D8C;
+    outline-width: 0px;
+    outline: none;
+    border-radius: 8px;
+    border: 0;
+    font-weight: 700;
+    font-size: 13px;
+    width: 280px;
+}
+.link-copy-button{
+  color: #55BE21;
+  font-weight: 700;
+  font-size: 13px;
+  cursor: pointer;
+  margin-left: -75px;
+}
+.Whatsapp-button{
+  margin-left: 20px;
+}
+.tag-more-table-container{
+  background-color: white;
+  border-radius: 10px;
+}
+#tag-more-table > tr,th,td {
+  border: none;
+}
+#tag-more-table, #tag-more-table111 {
+  margin: 25px;
+  padding: 27px 2px;
+  width: -webkit-fill-available !important;
+}
+#tag-more-table111 > tr,th,td {
+  border: none;
+}
+ #donations-table1{
+  margin: 0 14px;
+  padding: 0px;
+  width: -webkit-fill-available !important;
+} 
+#donations-table1 td{
+  border-bottom: 1px solid rgb(116, 125, 140,0.1);
+} 
+.Donate-Table-txt{
+  font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.camapign-imgMemory1 img{
+  width: 45px;
+}
+.camapign-imgMemory2 img{
+  width: 80px;
+}
+#campaing-table1 {
+  margin: 25px;
+ 
+}
+
+#campaing-table1 td:nth-child(2){
+text-align: center;
+}
+#campaing-table1 td:nth-child(3){
+padding-right: 15px;
+}
+#campaing-table2{
+  margin: 25px;
+ 
+}
+#campaing-table2 td:nth-child(2){
+text-align: center;
+}
+
+.table-first-last-name-input{
+  padding: 9px 11px 9px 20px;
+  outline-color: transparent;
+  color: rgb(33, 29, 40);
+  outline-width: 0px;
+  outline: none;
+  border-radius: 8px;
+  border: 1px solid rgb(33,29,40,0.1);
+  /*font-weight: 700;*/
+  font-size: 14px;
+  width: 155px;
+}
+.table-first-last-name-input:focus ,.table-email-input:focus ,.table-url-input:focus 
+,.searchInput-donation-table:focus, .textarea.form-control:focus
+  {
+  border-color: #55BE21;
+}
+.table-first-last-name-input::placeholder{
+  color: rgb(33, 29, 40,.22);
+  font-weight: 500;
+}
+.tag-more-table-heading{
+  font-size: 13px;
+  font-weight: 700;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(116, 125, 140,0.5);
+}
+.tagtable-align-chnge{
+  text-align: left;
+}
+.tagT-paddingLR{
+  padding-right: 3rem;
+    padding-left: 0.6rem;
+}
+.table-email-input{
+  padding: 11px 11px 11px 20px;
+  outline-color: transparent;
+  color: rgb(33, 29, 40,.5);
+  outline-width: 0px;
+  outline: none;
+  border-radius: 8px;
+  border: 1px solid rgb(33,29,40,0.1);
+  /*font-weight: 700;*/
+  font-size: 14px;
+  width: 300px;
+}
+.table-email-input::placeholder{
+  color: rgb(33, 29, 40,.22);
+}
+.table-url-input{
+  padding: 8px 19px 8px 21px;
+    outline-color: transparent;
+    color: rgb(33, 29, 40,.5);
+    outline-width: 0px;
+    outline: none;
+    border-radius: 8px;
+    border: 1px solid rgb(33,29,40,0.1);
+    /* font-weight: 700; */
+    font-size: 13px;
+    width: 590px;
+}
+.table-url-input::placeholder{
+  color: rgb(33, 29, 40,.22);
+}
+.table-row-number{
+  color: rgb(33, 29, 40,.5);
+}
+.tag-more-table-add-more-button{
+  font-size: 13px;
+  font-weight: 700;
+  font-weight: bold;
+  color: #55BE21; 
+  cursor: pointer;
+}
+.tag-more-table-footer{
+  line-height: 50px;
+}
+
+/*Radio Button Box CSS*/
+
+.container-radiobtn {
+  display: block;
+  position: relative;
+  padding-left: 37px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container-radiobtn input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #e2e1e1;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container-radiobtn:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container-radiobtn input:checked ~ .checkmark {
+  background-color: rgb(255, 255, 255,.3);
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container-radiobtn input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container-radiobtn .checkmark:after {
+    top: 3px;
+    left: 3px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #FFFFFF;
+}
+.savebtnpaddR2 ,.savebtnpaddR{
+  padding-left: 0px;
+}
+.btn-fb1-clr{
+  background: #336DF3;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 15px;
+  padding-top: 15px;
+    padding-bottom: 15px;
+}
+.btn-tw1-clr{
+  background: #47B3FE;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 15px;
+  padding-top: 15px;
+    padding-bottom: 15px;
+}
+.btn-wsap1-clr{
+  background: #49AD20;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 15px;
+  padding-top: 15px;
+    padding-bottom: 15px;
+}
+.btn-inst1-clr{
+  background: #E84865;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 15px;
+  padding-top: 15px;
+    padding-bottom: 15px;
+}
+.newm-crt
+{
+      margin: 140px 147px 0px 5px !important;
+
+}
+.mob-camp-BtnGreenSet{
+  margin-bottom: 30px;
+  margin-top: 38px;
+}
+.hr-newm-line {
+    width: 26%;
+    background: #55BE21;
+    border: 2px solid #55BE21;
+    margin-right: -145px;
+    margin-top: 158px;
+}
+.custom-checkbox .custom-control-label::before
+{
+  border-radius:0px;
+  background: #DFE4EA;
+  border: none;
+}
+.custom-checkbox .custom-control-input:checked~.custom-control-label::after {
+    background-image: url(../../dist/img/tick.png)  !important;
+
+}
+.custom-control-input:checked ~ .custom-control-label:before {
+    color: #ffffff !important;
+    border-color: transparent !important;
+    background-color: transparent !important;
+}
+.custom-control-label::after {
+    position: absolute;
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    content: "";
+    background: no-repeat;
+}
+.custom-control-label::before, .custom-file-label, .custom-select{
+  transition: none;
+}
+.custom-control-input:not(:disabled):active~.custom-control-label::before {
+    color: #fff;
+    background-color: transparent;
+    border-color: transparent;
+}
+.list-chalng-color1{
+  padding-bottom: 20px;
+}
+.list-chalng-color1 span{
+  font-size: 24px;
+    font-weight: 500;
+    color: #211D28;
+}
+.list-text-color2
+{
+  
+    color: rgb(33, 29, 40,0.7);
+}
+.textbox-area-filed
+{
+  padding: 14px 15px 8px 24px !important;
+    border: 1px solid rgb(33, 29, 40,0.2) !important;
+    border-radius: 10px !important;
+    margin-bottom: 15px !important;
+    margin-top: 8px !important;
+    width: 100%;
+    height: 122px !important;
+    outline: none !important;
+    box-sizing: border-box;
+    color: rgb(33, 29, 40,0.2) !important ;
+    background-color: transparent !important;
+    font-size: 15px !important;
+    letter-spacing: 0px !important;
+}
+.textbox-area-filed::placeholder{
+ color: rgb(33,29,40,0.3) !important; 
+ font-size: 15px;
+  outline: none !important;
+ letter-spacing: 0px;
+}
+
+.sum-text{
+  font-size: 24px;
+    font-weight: 400;
+    color: #211D28;
+}
+
+.web-box2-background{
+  height: 200px;
+  width: 446px;
+  box-shadow: none;
+  border-radius: 10px;
+}
+
+/*After Tag more Button click*/
+
+.tag-success-message{
+  background-color: white;
+  padding: 25px 0px 25px 0px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+.tag-success-right-arrow{
+  height: 28px;
+}
+.tag-success-message-heading{
+  font-weight: 700;
+}
+.tag-success-message-text{
+  font-size: 16px;
+  color: #747D8C;
+}
+.Whatsapp-send-message-btn-group{
+  margin-top: 40px;
+}
+.whatsapp-contact-name{
+  background-color: white;
+  padding: 12px 0px 0px 22px;
+  height: 49px;
+  border-radius: 9px;
+}
+.whatsapp-icon-btn{
+  color: white;
+  background-color: #55BE21;
+  outline-color: transparent;
+  box-shadow: none;
+  outline-width: 0px !important;
+  font-size: small;
+  border-radius: 10px;
+ margin-top: -49px;
+    float: right;
+    padding: 12px 14px;
+}
+.whatsapp-icon-btn:hover{
+color: white;
+  background-color: #00CD00;
+}
+.stats-table-row-number{
+  color: #747D8C;
+  font-weight: 600;
+  text-align: center; 
+  border-bottom: 1px solid rgb(116, 125, 140,.2);
+  padding:14px 0; 
+}
+.stats-table-number-data{
+  color: #211D28;
+  font-weight: 600;
+  text-align: center;
+  border-bottom: 1px solid rgb(116, 125, 140,.2);
+  padding:14px 10px; 
+}
+
+#donations-table > tr{
+  border-bottom: 1px solid #211D28 !important;
+  margin: 25px;
+  width: -webkit-fill-available !important;
+}
+.show-donation-detail-popover{
+  cursor: pointer;
+}
+.dummy-pagination-container{
+  text-align: center;
+}
+.dummy-pagination{
+  list-style-type: none;
+  display: inline-flex;
+  letter-spacing: 15px;
+  color: #747D8C;
+  font-weight: 600;
+  padding-left: 0px;
+}
+.dummy-pagination>li:hover{
+  cursor: pointer;
+   color: #55BE21;
+}
+.disabled-li{
+  pointer-events:none; //This makes it not clickable
+    opacity:0.6; 
+}
+.last-page-text{
+  letter-spacing: 0px !important;
+}
+.active-page-pagination{
+  color: #55BE21 !important;
+}
+.base-text-color{
+  color: #747D8C;
+}
+.searchInput-donation-table{
+  height: 38px;
+  padding : 0px 44px 0px 10px;
+  margin-left: 15px;
+  background: transparent;
+  outline-color: transparent;
+  outline-width: 0px;
+  outline: none;
+  border-radius: 8px;
+  border: 1px solid rgb(33,29,40,0.1);
+}
+#addMoreShulPhotos{
+  color: #55BE21;
+  font-size: 13px;
+}
+#addMoreShulPhotos i{
+  font-size: 10px;
+}
+.add-padding-tagnow{
+  padding: 9px 45px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.stats-tab-td-Lp{
+  padding-left: 25px;
+}
+.tag-success-arroImg{
+  text-align: center;
+    padding-right: 0;
+    padding-left: 10px;
+}
+.paymentMode-checkbox22{
+margin-left: -12px;
+    padding-top: 10px;
+}
+.paymentMode-sidetavleMT{
+margin-top: -10px;
+}
+table.table.table-center.step-form-price-table.table-padding.mb-2 {
+  margin-top: -20px;
+}
+table.table.table-center.step-form-price-table.table-padding.mb-2 .table th, .table td {
+    padding: 0 0;
+    vertical-align: top;
+    
+}
+.paymentMode-totalTd{
+  border-top: 1px solid #dee2e6 !important;
+padding-top: 14px !important;
+}
+.paymentMode-txtinput22
+{ padding: 6px 18px !important;
+  color: rgb(33,29,40,0.5) !important;
+    border: 1.2px solid rgb(33,29,40,0.2) !important;
+    border-radius: 8px !important;
+    outline: none !important;
+    height: 48px;
+}
+.popover{
+        background: #F1F2F6;
+        top: 70px !important;
+      }
+.poptxtHead{
+  font-weight: 600;
+    color: #55BE21;
+    font-size: 18px;
+    padding: 10px 0;
+}
+#popover-Table{
+    margin: 10px 0;
+    border-collapse: collapse !important;
+}      
+#popover-Table tr , #popover-Table td{
+background: transparent;
+color: #211D28;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 8px 26px;
+}  
+#popover-Table tfoot{
+  border-top: 1px solid rgb(116, 125, 140,.22);
+}
+.popover .arrow{
+        display: none !important;
+      }      
+
+.extportAll-Align{
+  text-align: center;
+}
+@media only screen and (max-width: 1366px){
+.web-box2-background {
+    width: 395px;
+}
+.chng-filed{
+  width: 192px;
+  height: 208px;
+}
+.logoImgdiv{
+  width: 526px ;
+  margin-bottom: -22px;
+}
+.ShulImgdiv{
+  width: 940px;
+}
+#mainShulImageContainer{
+  width: 940px;
+  height: 157px;
+  overflow-x: scroll;
+}
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+  .container {
+    max-width: 720px;
+}
+  .by-loc{
+  padding: 4px 10px 4px 0px;
+}
+.cvv-input {
+    position: absolute;
+    top: 24rem;
+    left: 10.2rem !important;
+    padding: 4px 4px !important;
+    width: 16%;
+    }
+.web-font-text span ,.web-font-text-1 span{
+  font-size: 20px;
+}
+.ShulImgdiv {
+    width: 660px;
+}
+#mainShulImageContainer{
+  width: 660px;
+  height: 157px;
+  overflow-x: scroll;
+}
+.logoImgdiv {
+    width: 336px;
+   
+}
+.ShulImgdiv p {
+  font-size: 16px;
+  color: rgb(116, 125, 140,0.8);
+}
+.ShulImgdiv p i{
+  font-size: 22px;
+  color: rgb(116, 125, 140);
+}
+.ShulImgdiv p span {
+  padding-left: 14px;
+}
+.logoImgdiv p {
+  font-size: 11px;
+  color: rgb(116, 125, 140,0.8);
+}
+.logoImgdiv p i{
+  font-size: 16px;
+  color: rgb(116, 125, 140);
+}
+.logoImgdiv p span {
+  padding-left: 8px;
+}
+.donateTabBtn{
+  padding-left: 16px;
+    padding-right: 16px;
+}
+.shul-box-donatebtn2{
+  padding-left: 6px;
+    padding-right: 6px;
+}
+.ViewButton{
+  padding-left: 18px;
+    padding-right: 18px;
+}
+.ipadviewslist-Dashboard{
+  padding-left: 8px;
+}
+.inlineSize-othershul-mobile{
+ inline-size: max-content; 
+}
+.tagged-card-main-img{
+  height: 81px;
+}
+.tagged-card-name {
+  font-size: 16px;
+}
+.tagged-card-tags{
+  font-size: 13px;
+}
+.tagged-card-text {
+    color: rgb(33, 29, 40,.6);
+    margin-top: 20px;
+    font-size: 16px;
+}
+.fnt-2 {
+    font-size: 22px;
+    font-weight: 500 !important;
+    color: #211D28;
+}
+.instantcheck-IpadView{
+  margin-left: 11px;
+    padding-top: 10px;
+}
+.paymentMode-txtinput22{
+  height: 45px;
+}
+.textbox-area-filed{
+height: 100px !important;
+}
+.invilink-text{
+  font-size: 13px;
+  padding-right: 6px;
+}
+.invite-link-input{
+  padding: 6px;
+  width: 260px;
+  font-size: 12px;
+}
+.Whatsapp-button{
+  position: absolute;
+    right: -40px;
+}
+.whatsapp-logo img{
+  width:16px; 
+}
+.tag-btnpadding-tabview{
+  padding-left: 6px;
+  padding-right: 6px;
+}
+.tagT-paddingLR {
+    padding-right: 1rem;
+    padding-left: 0;
+}
+.table-first-last-name-input{
+  width: 130px;
+  padding: 11px 10px 11px 10px;
+}
+.table-email-input{
+  width: 220px;
+  padding: 11px 10px 11px 10px;
+}
+.web-box2-background {
+    height: 245px;
+    width: 294px;
+}
+.tag-success-right-arrow {
+    height: 26px;
+}
+.web-box-background {
+    margin-right: 0px !important;
+    margin-left: 0px;
+}
+.preset-amt-text span {
+    clear: both;
+    display: block;
+}
+.amont-btn {
+    margin-right: 12px;
+    margin-top: 8px;
+    font-size: 16px;
+}
+
+.amont-1000-btn {
+    margin-top: 8px;
+    font-size: 16px;
+}
+
+.dou2, .dou1 {
+    padding-left: 0px;
+    font-size: 17px;
+}
+.whatsapp-contact-name{
+  padding: 10px 0px 0px 15px;
+  font-size: 15px;
+}
+.whatsapp-icon-btn{
+  padding: 11px 12px;
+}
+.rowDescriptionDate{
+  padding-right: 1rem;
+}
+.table-margin-left {
+margin-left: -46px ;
+}
+.tag-success-message{
+  margin-top: 25px;
+}
+.tag-success-arroImg {
+    text-align: left;
+    padding-left: 20px;
+    width: 15%;
+}
+.tag-success-msg1{
+  width: 85%;
+}
+.copy-link-box-padding1{
+  padding-left: 20px;
+}
+.table-url-input{
+  width: 370px;
+}
+.extportAll-Align{
+  text-align: right;
+  padding-right: 34px;
+}
+
+
+
+}
+
+
+@media (max-width: 576px) {
+ .inlineSize-othershul-mobile{
+ inline-size: fit-content;
+ 
+}
+.by-loc {
+    padding: 28px 0;
+}
+.web-font-text span, .web-font-text-1 span {
+    font-size: 32px;
+}
+.logoImgdiv{
+  width: 325px ;
+  height: 145px;
+}
+.ShulImgdiv{
+   width: 325px ;
+   height: 157px;
+}
+#mainShulImageContainer{
+  width: 325px;
+  height: 157px;
+  overflow-x: scroll;
+}
+.donationssection-mobileviewTable{
+  color: #211D28;
+  font-weight: 600;
+  padding:0px 26px; 
+}
+.chng-filed{
+  position: absolute;
+    top: -4rem;
+    left: 6.5rem;
+    padding: 5px 10px;
+    width: 221px;
+    border: 2px solid rgb(33,29,40,0.1);
+    height: 44px !important;
+}
+.hr-marginLR1 {
+    margin-left: -6px;
+}
+.hr-marginLR2 {
+    margin-left: -54px;
+}
+.hr-marginLR3 {
+    margin-left: -57px;
+}
+.hr-marginLR4 {
+    margin-left: -53px;
+    margin-right: -10px;
+}
+.ShulImgdiv p {
+  font-size: 11px;
+  color: rgb(116, 125, 140,0.8);
+}
+.ShulImgdiv p i{
+  font-size: 16px;
+  color: rgb(116, 125, 140);
+}
+.ShulImgdiv p span {
+  padding-left: 8px;
+}
+.logoImgdiv p {
+  font-size: 11px;
+  color: rgb(116, 125, 140,0.8);
+}
+.logoImgdiv p i{
+  font-size: 16px;
+  color: rgb(116, 125, 140);
+}
+.logoImgdiv p span {
+  padding-left: 8px;
+}
+.hrcls {
+margin: 10px 0 0;
+}
+.hr-width-new {
+    width: 20%;
+    margin: 4px 0 0;
+}
+.cvv-input{
+  position: absolute;
+    top: 16.3rem;
+    left: 14.6rem !important;
+    padding: 4px 5px !important;
+    width: 13%;
+}
+.search-sm-alignR{
+  text-align: left;
+}
+.searchInput {
+    width: 320px;
+    height: 42px;
+border: 2px solid rgb(33,29,40,0.1);
+padding: 18px 10px;
+}
+.imglog-width {
+    width: 165px;
+}
+.amont-btn {
+    font-size: 12px;
+    padding: 1px 10px !important;
+    margin-right: 5px;
+    margin-top: 15px;
+    margin-bottom: 46px;
+}
+.preset-amt-text span {
+    color: #211D28;
+    font-weight: 500;
+    font-size: 16px;
+    padding-right: 10px;
+}
+.fnt-1 {
+    font-size: 1.2rem;
+    font-weight: 600 !important;
+}
+.para-fnt1 {
+    text-align: justify;
+    font-size: 15px;
+}
+.modalPageDouleboxMarginT {
+    margin-top: -14px;
+}
+.dou2, .dou1 {
+    padding-left: 0px;
+    font-size: 23px;
+}
+.amont-1000-btn {
+    font-size: 12px;
+    padding: 1px 12px !important;
+    margin-top: 0px;
+    margin-bottom: 32px;
+}
+.ViewButton {
+    /* padding-left: 35px; */
+    /* padding-right: 27px; */
+    position: absolute;
+    left: 11px;
+    padding: 7px 45px;
+    font-size: 14px;
+    font-weight: 500;
+    width: 46%;
+}
+.shul-box-donatebtn2{
+  width: 46%;
+    position: relative;
+    left: 73px;
+}
+.card-body.Mob-shuldonate-crd-20{
+padding-left: 22px;
+    padding-right: 2px;
+}
+.donateAgainButton{
+  padding: 7px 32px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 135px;
+}
+.chng-step-field::placeholder{
+  font-weight: 500;
+ color: rgb(33,29,40,0.7) !important; 
+ font-size: 15px;
+ letter-spacing: 0px;
+}
+.donateTabBtn {
+    padding: 7px 32px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 140px;
+}
+.tagged-card-main-img{
+  display: none;
+}
+.card-body.profileFromPR {
+    padding-right: 4px;
+}
+.card-body.DprofileFromPR1 {
+    padding-right: 0px;
+    padding-bottom: 30px;
+}
+.tableTag-margin-left1{
+  margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+.card .mobTag-padding-responsiv{
+  padding: 1.25rem  0;
+}
+
+.tagged-card-name {
+  padding-bottom: 10px;
+    font-size: 18px;
+}
+.tag-box-donarrow{
+  inline-size:fit-content;
+}
+.completeIconSize {
+    height: 18px;
+}
+.tagged-card-tags {
+    font-size: 16px;
+}
+.tagged-card-text{
+  color: #747D8C;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+.sm-d-txtWhtasp{
+  display: none;
+}
+.savebtnpaddR{
+  padding-right: 0px;
+  padding-left: 6px;
+}
+.savebtnpaddR2{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.donateAgainButton{
+  padding: 3px 5px;
+  margin-left:0;
+}
+.add-padding-tagnow{
+  padding: 8px 40px;
+    margin-left: 0;
+}
+.Whatsapp-button{
+  right: 4px;
+}
+.invite-link-input {
+  padding: 8px 10px;
+  margin-left: -2px;
+  }
+.web-box2-background{
+width: 328px;
+}
+.tagnow-PaddingLR{
+  padding: 0px 12px;
+}
+.rowPrice{
+  font-size: 30px;
+  padding:0;
+  border-right: none;
+  margin-top: -24px;
+    margin-bottom: -12px;
+}
+.change-padding-donatetable td {
+    padding: 5px 24px 23px 22px !important;
+}
+.rowDescriptionText{
+  margin-top: 8px;
+}
+.tag-more-mob-w-Auto{
+  width: auto;
+}
+.table-email-input,.table-first-last-name-input ,.table-url-input{
+  width:100%;
+}
+
+#donationTable ,#donationTable tr ,#donationTable .tab-first-td-radius,.rowDescriptionDate,.donate111,.rowPrice,.donate111, #donationTable tbody{
+  display: block;
+}
+#donationTable thead{
+  display: none;
+}
+#donationTable tr {
+  margin-bottom: 1.5rem;
+}
+#tag-more-table111 ,#tag-more-table111 tr,#tag-more-table111 td, #tag-more-table111 tbody{
+  display: block;
+}
+#tag-more-table111 thead {
+  display: none;
+}
+#tag-more-table111 td {
+    /* Behave  like a "row" */
+    border: none;
+    
+    position: relative;
+    
+  }
+  #tag-more-table111{
+    padding: 80px 0 0;
+    margin: 10px 18px;
+  }
+#tag-more-table111 td:nth-child(1) {
+    width: 1%;
+}
+
+ #tag-more-table111 td:nth-child(2){
+    width: 45%;
+    margin-top: -38px;
+    margin-left: 18px;
+}
+ #tag-more-table111 td:nth-child(3){
+    width: 45%;
+    margin-left: 157px;
+    margin-top: -47px;
+}
+ #tag-more-table111 td:nth-child(4){
+    width: 93%;
+    margin-left: 16px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.tag-more-table-footer {
+    line-height: 0px;
+}
+  #tag-more-table111 td:nth-of-type(1):before {
+    content: "";
+     position:absolute;
+  }
+  #tag-more-table111 td:nth-of-type(2):before {
+    content: "First Name";
+     position:absolute;
+     top: -34px;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(33, 29, 40,.4);
+  }
+
+#tag-more-table111 td:nth-of-type(3):before {
+    content: "Last Name";
+     position:absolute;
+      top: -34px;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(33, 29, 40,.4);
+  }
+#tag-more-table111 td:nth-of-type(4):before {
+    content: "email";
+    font-size: 16px;
+    position:absolute;
+    top: -34px;
+    font-weight: 500;
+    color: rgb(33, 29, 40,.4);
+  }
+ #campaing-table1 ,#campaing-table1 tr,#campaing-table1 td, #campaing-table1 tbody{
+  display: block;
+}
+#campaing-table1 thead {
+  display: none;
+}
+#campaing-table1 td {
+    /* Behave  like a "row" */
+    border: none;
+    
+    position: relative;
+    
+  }
+  #campaing-table1{
+    padding: 50px 0 0 0;
+    margin: 10px 18px;
+  }
+  #campaing-table1 td:nth-child(1) {
+    width: 1%;
+}
+
+ #campaing-table1 td:nth-child(2){
+    width: 30%;
+    /*margin-top: -38px;
+    margin-left: 18px;*/
+}
+ #campaing-table1 td:nth-child(3){
+    width: 69%;
+    margin-left: 100px;
+    margin-top: -49px;
+}
+ #campaing-table1 td:nth-child(4){
+    width: 92%;
+    margin-left: 16px;
+    margin-top: 50px;
+    margin-bottom: 34px;
+}
+ #campaing-table1 td:nth-of-type(1):before {
+    content: "";
+     position:absolute;
+  }
+  #campaing-table1 td:nth-of-type(2):before {
+    content: "Image";
+     position:absolute;
+     top: -34px;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(33, 29, 40,.4);
+  }
+
+#campaing-table1 td:nth-of-type(3):before {
+    content: "English Name";
+     position:absolute;
+      top: -34px;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(33, 29, 40,.4);
+  }
+#campaing-table1 td:nth-of-type(4):before {
+    content: "Hebrew Name";
+    font-size: 16px;
+    position:absolute;
+    top: -34px;
+    font-weight: 500;
+    color: rgb(33, 29, 40,.4);
+  }
+.tagT-paddingLR {
+     padding-right: 0; 
+    padding-left: 0;
+}
+
+.table-margin-left {
+     margin-left: -16px; 
+}
+.card .danatetable-extraPadding{
+  padding-right: 0;
+  padding-left: 10px;
+}
+.mob-donate0{
+  padding: 8px 48px;
+  margin-left: 0;
+}
+.rowDescriptionDate {
+    padding-top: 16px;
+    padding-right: 0;
+  }
+  .tag-success-message-text{
+  font-size: 18px;
+  font-weight: 500;
+}
+.mob-tabgedlinkText-0{
+  padding-left: 0;
+}
+.card-body.donate-crd-paddRL-0{
+  padding-right: 2px;
+  padding-left: 22px;
+}
+.card-body.tagged-crd-paddingLR-24{
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.whatsapp-contact-name {
+    padding: 10px 0px 0px 15px;
+    font-size: 20px;
+    margin-bottom: 25px;
+    font-weight: 500;
+}
+.whatsapp-icon-btn {
+    padding: 12px 12px;
+    margin-top: -74px;
+}
+.mob-camp-BtnGreenSet .greenbtn{
+    padding: 14px 26px;
+}
+.TablecontentFit-Chng{
+  width: auto;
+}
+.searchInput-donation-table{
+  width: 92%;
+  height: 44px;
+}
+.donate-type-mob{
+  padding-left: 18px;
+    font-size: 16px;
+}
+#donations-table1 {
+    margin: 0;
+}
+.donate-direct-mob{
+  left: 9rem;
+  width: 208px;
+}
+#donations-table1 td:nth-child(1) {
+padding: 0 20px;
+}
+#donations-table1 td:nth-child(2) {
+padding: 0 20px;
+}
+#donations-table1 td:nth-child(3) {
+padding: 0 20px;
+}
+}
+
+@media (max-width: 414px)
+{
+
+.invilink-text {
+    font-size: 15px;
+}
+.cvv-input{
+    position: absolute;
+    top: 16.3rem;
+    left: 16.6rem !important;
+    padding: 4px 5px !important;
+    width: 13%;
+}
+.invite-link-input {
+    padding: 10px 8px;
+    margin-left: -6px;
+    width: 280px;
+}
+.Whatsapp-button {
+    right: 20px;
+    bottom: 4px;
+}
+.donate-direct-mob {
+    width: 243px;
+}
+#tag-more-table111 td:nth-child(3) {
+    
+    margin-left: 178px;
+    
+}
+ 
+ .logoImgdiv {
+    width: 362px;
+    height: 145px;
+}
+.ShulImgdiv{
+   width: 362px ;
+   height: 157px;
+}
+#mainShulImageContainer{
+  width: 362px;
+  height: 157px;
+  overflow-x: scroll;
+}
+.web-box2-background ,.searchInput{
+width: 363px;
+}
+.shul-box-donatebtn2 {
+    left: 88px;
+}
+.dummy-pagination {
+    padding-left: 22px;
+}
+
+}
+@media (max-width: 375px)
+{
+.web-box2-background{
+width: 328px;
+}
+.dummy-pagination {
+    padding-left: 0;
+}
+.logoImgdiv {
+    width: 325px;
+    height: 145px;
+}
+.ShulImgdiv{
+   width: 325px ;
+   height: 157px;
+}
+#mainShulImageContainer{
+  width: 325px;
+  height: 157px;
+  overflow-x: scroll;
+}
+.cvv-input {
+    position: absolute;
+    top: 16.3rem;
+    left: 14.6rem !important;
+    padding: 4px 5px !important;
+    width: 13%;
+}
+.shul-box-donatebtn2 {
+    left: 73px;
+}
+.invite-link-input {
+    width: 264px;
+}
+.Whatsapp-button {
+    right: 4px;
+}
+#tag-more-table111 td:nth-child(3) {
+    margin-left: 157px;
+}
+.donate-direct-mob {
+    width: 208px;
+}
+.searchInput {
+    width: 320px;
+    }
+
+}
+@media (max-width: 360px){
+  #tag-more-table111 td:nth-child(3) {
+    margin-left: 151px;
+}
+.Whatsapp-button {
+    right: -4px;
+}
+.donate-direct-mob {
+    width: 193px;
+}
+}

@@ -1,0 +1,14 @@
+# OS generated files
+.*
+*.db
+*.log
+node_modules
+out
+src/theme
+
+# Trailing dotted files
+!.editorconfig
+!.gitignore
+!.npmrc
+!.github
+!.prettierrc

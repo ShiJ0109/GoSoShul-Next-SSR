@@ -1,0 +1,23 @@
+.overlay {
+    position: fixed;
+    display: block; 
+    overflow: auto; 
+    width: 100%; 
+    height: 100%; 
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #f4f6f9; 
+    z-index: 999; 
+    cursor: pointer;
+  }
+  
+  .content {
+        margin: 5% auto;
+        background-color: #f4f6f9;
+        border-radius: 0.5rem;
+        width: 50vw;
+        padding: 2rem;
+        position: relative;
+  }

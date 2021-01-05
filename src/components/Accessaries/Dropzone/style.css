@@ -1,0 +1,35 @@
+  .MuiDropzoneArea-root {
+    width: 100%;
+    border: dashed;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+    min-height: 250px;
+    border-color: rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    background-color: #f4f6f9 !important;
+  }
+  .MuiDropzoneArea-active {
+    border: solid;
+    animation: MuiDropzoneArea-keyframes-progress 2s linear infinite !important;
+    border-color: rgb(101, 115, 195);
+    background-size: 150% 100%;
+    background-image: repeating-linear-gradient(-45deg, #fff, #fff 25px, rgba(0, 0, 0, 0.12) 25px, rgba(0, 0, 0, 0.12) 50px);
+  }
+  .MuiDropzoneArea-invalid {
+    border-color: #f44336;
+    background-image: repeating-linear-gradient(-45deg, #e57373, #e57373 25px, #d32f2f 25px, #d32f2f 50px);
+  }
+  .MuiDropzoneArea-textContainer {
+    text-align: center;
+  }
+  .MuiDropzoneArea-text {
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  .MuiDropzoneArea-icon {
+    color: #263238;
+    width: 51px;
+    height: 51px;
+  }

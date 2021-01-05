@@ -1,0 +1,7 @@
+userRequests/GetRef debug mode 192.168.108.83---modified remove debug mode. 11/12
+userRequests/PostLogin debug mode 192.168.108.83
+Campaign/Home.js debug mode get shul id
+constants/requestParams const url = http://192.168.108.83:8035/gososhul
+User/StepForms/Donate : show state value. <h5> ---removed 11/12
+Login/loginForm password required debug mode not required, onsubmit password check empty not in debug mode
+User/stepForms/SignupModal : setregister true in debug mode 2020/12/17
