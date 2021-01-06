@@ -60,6 +60,14 @@ import SettingsView from 'views/settings/SettingsView';
 import SocialTest from 'Shul/MarketCampaign/test';
 import SocialCheck from 'Shul/MarketCampaign/check';
 
+// lazy loading dynamic import
+import dynamic from 'next/dynamic';
+
+const AllShul = dynamic(() => import('campaign/AllShuls'), {
+  ssr: false,
+});
+
+
 const routes = [
   // {
   //   path: 'app',

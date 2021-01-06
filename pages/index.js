@@ -1,9 +1,7 @@
 import React, { useState, useEffect } from "react";
-import Head from 'next/head'
+import Head from 'next/head';
 import { Outlet, useRoutes } from 'react-router-dom';
 import routes from '../src/routes';
-// import 'owl.carousel/dist/assets/owl.carousel.css';
-// import 'owl.carousel/dist/assets/owl.theme.default.css';
 import { Provider } from 'react-redux';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import store from 'store/store';
@@ -60,7 +58,6 @@ function App() {
       <div>
         <Head>
         <link rel="shortcut icon" href="/favicon.ico" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="/plugins/fontawesome-free/css/all.min.css" />
         <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />

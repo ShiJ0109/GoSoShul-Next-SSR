@@ -2,8 +2,8 @@ import React, {
   useState, useEffect, useRef, useMemo
 } from 'react';
 import OwlCarousel from 'react-owl-carousel';
-// import 'owl.carousel/dist/assets/owl.carousel.css';
-// import 'owl.carousel/dist/assets/owl.theme.default.css';
+import 'owl.carousel/dist/assets/owl.carousel.css';
+import 'owl.carousel/dist/assets/owl.theme.default.css';
 import Select from 'react-select';
 import { StateList } from 'models/shul/StateList';
 import * as utils from 'utils/common';

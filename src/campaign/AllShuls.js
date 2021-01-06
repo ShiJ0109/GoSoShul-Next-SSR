@@ -19,7 +19,7 @@ import AppAppBar from './Views/AllShulAppAppBar/AppAppBar';
 import Basic from './Views/AllShulBasic/Basic';
 import ProgressBar from './Views/ProgressBar';
 import ShulCampaigns from './Views/ShulCampaign/ShulCampaigns';
-import InMemoryOf from './Views/InMemoryOf/InMemoryOf';
+// import InMemoryOf from './Views/InMemoryOf/InMemoryOf';
 import AllShulDonorLists from './Views/Donors/AllShulDonorLists';
 import Sponsors from './Views/Sponsors/Sponsors';
 import Footer from './Views/Footer/Footer';
@@ -171,11 +171,11 @@ const AllShul = () => {
                     .owl-carousel .next-slide {
                     background: none;
                     right: 0px;
-                    }  
+                    }
                     .show-box-width {
                     width: 297px;
                     }
-                    } 
+                    }
                     .show-hover-text{
                     position: absolute;
                     background: #F1F2F6;
@@ -188,7 +188,7 @@ const AllShul = () => {
                     .show-box-width{
                     width: 348px;
                     height: 114px;
-                    } 
+                    }
                     .para1 {
                     font-size: 16px;
                     }
@@ -231,7 +231,7 @@ const AllShul = () => {
       <Basic refData={false} videoLink={utils.getYoutubeEmbeded('https://www.youtube.com/embed/aiegUzPX8Zc')} />
       <ProgressBar totalDonate={totalData.donation_stat} />
       <ShulCampaigns AllShulList={allShulData.shul_list} />
-      <InMemoryOf in_memory_of={totalData.memories} />
+      {/* <InMemoryOf in_memory_of={totalData.memories} /> */}
       <AllShulDonorLists donors={totalData.donations} />
       <Sponsors sponsors={totalData.sponsors} />
       <Footer />

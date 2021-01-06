@@ -5,30 +5,6 @@ const webpack = require('webpack');
 
 const withFonts = require('next-fonts');
 
-// default Config
-// module.exports = withCSS({});
-
-
-// Custom Config
-module.exports = withCSS({
-  cssModules: true
-})
-
-// const { ASSET_HOST } = process.env
-
-// // for those who using CDN
-// const assetPrefix = ASSET_HOST || ''
-
-// module.exports = {
-//   assetPrefix,
-//   target: 'serverless',
-//   webpack: (config, { dev }) => {
-//     config.output.publicPath = `${assetPrefix}`
-
-//     return config
-//   }
-// }
-
 // module.exports = {
 //   async rewrites() {
 //     return [
@@ -80,3 +56,4 @@ module.exports = withFonts(withLess(withCSS(
     }
   }
 )));
+
