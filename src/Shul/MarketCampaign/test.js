@@ -46,9 +46,7 @@ const SocialTest = () => {
       <div className="content-header">
         <div className="container-fluid">
           <div className="row mb-2" />
-          {}
         </div>
-        {}
       </div>
       {}
       <div className="container">
