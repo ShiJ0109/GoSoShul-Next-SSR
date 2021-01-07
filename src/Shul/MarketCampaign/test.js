@@ -71,7 +71,7 @@ const SocialTest = () => {
               </a>
             </FacebookShareButton>
             <WhatsappShareButton
-              url="https://gososhul.com/spread"
+              url="https://gososhul-next-29bopwxyi.vercel.app/spread"
               quote="GoSoShul"
               hashtag="shul name"
               className="btn btn-pills btn-fb1-clr mt-2 mr-3"

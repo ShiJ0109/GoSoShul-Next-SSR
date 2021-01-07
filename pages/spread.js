@@ -21,6 +21,22 @@ const Page = (props) => (
             alt: 'Og Video Alt',
           },
         ],
+        images: [
+          {
+            url: 'https://res.cloudinary.com/dkoaz5iep/image/upload/ar_1,q_100,r_5,c_crop/v1605505999/gososhul/r8mijsdkrkhxpwhnr5me.png',
+            width: 800,
+            height: 600,
+            alt: 'Og Image Alt',
+          },
+          {
+            url: 'https://res.cloudinary.com/dkoaz5iep/image/upload/ar_1,q_100,r_5,c_crop/v1605505999/gososhul/r8mijsdkrkhxpwhnr5me.png',
+            width: 900,
+            height: 800,
+            alt: 'Og Image Alt Second',
+          },
+          { url: 'https://res.cloudinary.com/dkoaz5iep/image/upload/ar_1,q_100,r_5,c_crop/v1605505999/gososhul/r8mijsdkrkhxpwhnr5me.png' },
+          { url: 'https://res.cloudinary.com/dkoaz5iep/image/upload/ar_1,q_100,r_5,c_crop/v1605505999/gososhul/r8mijsdkrkhxpwhnr5me.png' },
+        ],
         video: {
           // Multiple Open Graph actors is only available in version `7.0.2-canary.35`+ of next
           actors: [
