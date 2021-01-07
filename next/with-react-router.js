@@ -15,21 +15,30 @@ export default App => {
           },
         },
       } = appContext;
-      let requestArray = originalUrl.split("/")
-      let requestDecodedArray = requestArray.map((el)=>decodeURIComponent(el));
-      let data = {};
-      if(requestDecodedArray[1] ==='spread' && requestDecodedArray.length > 2 )
-      {
-        const fetchData = await userRequests.GetRef(requestDecodedArray[2]);
-        data = {fetchData, params : requestDecodedArray};
+      try{
+        let requestArray = typeof originalUrl === undefined ? [] : originalUrl.split("/");
+        let requestDecodedArray = requestArray.map((el)=>decodeURIComponent(el));
+        let data = {};
+        if(requestDecodedArray.length > 2 &&requestDecodedArray[1] ==='spread' )
+        {
+          const fetchData = await userRequests.GetRef(requestDecodedArray[2]);
+          data = {fetchData, params : requestDecodedArray};
+        }
+        const res = await fetch('https://api.github.com/repos/vercel/next.js')
+        const json = await res.json()
+        return {
+          originalUrl,
+          context: locals.context || {},
+          data,
+        };
       }
-      const res = await fetch('https://api.github.com/repos/vercel/next.js')
-      const json = await res.json()
-      return {
-        originalUrl,
-        context: locals.context || {},
-        data,
-      };
+      catch(e){
+        return {
+          originalUrl,
+          context: locals.context || {},
+          data: {},
+        };
+      }
     }
 
     render() {
