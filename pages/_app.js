@@ -11,7 +11,7 @@ class MyApp extends App {
     const { Component, pageProps, originalUrl, data } = this.props;
     return (
       <Container>
-        <Component data={data} {...pageProps} />
+        <Component data={data} {...pageProps} originalUrl={originalUrl} />
       </Container>
     );
   }

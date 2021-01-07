@@ -12,6 +12,15 @@ const Page = (props) => (
         description: 'Description of open graph video',
         url: 'https://www.example.com/videos/video-title',
         type: 'video.movie',
+        videos: [
+          {
+            url: 'https://youtu.be/C0DPdy98e4c',
+            // url : socialShare.videos,
+            width: 800,
+            height: 600,
+            alt: 'Og Video Alt',
+          },
+        ],
         video: {
           // Multiple Open Graph actors is only available in version `7.0.2-canary.35`+ of next
           actors: [
