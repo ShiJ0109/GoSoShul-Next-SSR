@@ -11,6 +11,9 @@ import {
 import * as apiRequests from 'services/apiRequsts';
 import * as mainRequests from 'services/mainRequests';
 
+// import model
+import CampaignSettingsModel from 'models/shul/CampaignSettingsModel';
+
 // import loading component
 import { Spin } from 'components/Loading/Loading';
 
@@ -43,7 +46,7 @@ const AllShulDonorLists = dynamic(() => import('campaign/Views/Donors/AllShulDon
 });
 
 // CSS lazy loading
-const Artists = lazy(() => import('campaign/AllShul.css'));
+const Artists = lazy(() => import('campaign/Home.css'));
 
 const AllShul = () => {
   const [scriptLoaded, setScriptLoaded] = useState(false);

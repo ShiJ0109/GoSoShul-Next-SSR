@@ -36,7 +36,7 @@ const requestParams = {
     changePassword: url('shul/change-password'),
   },
   userUrls: {
-    getRef: url('user/getRef'),
+    getRef: url('user/get_ref'),
     signup: url('user/signup'),
     login: url('login'),
     postTag: url('user/tag'),

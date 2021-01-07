@@ -1,6 +1,8 @@
 import { NextSeo } from 'next-seo';
+import React, {useEffect} from 'react';
+import * as userRequests from 'services/userRequests';
 
-const Page = () => (
+const Page = (props) => (
   <>
     <NextSeo
       title="Video Page Title"
@@ -41,7 +43,16 @@ const Page = () => (
       }}
     />
     <p>Simple Usage</p>
+    <p>{JSON.stringify(props.data)}</p>
+    <h2>{props.originalUrl}</h2>
   </>
 );
+
+// Page.getInitialProps = async (ctx) => {
+//   const res = await fetch('https://api.github.com/repos/vercel/next.js')
+//   const json = await res.json()
+//   const data = await userRequests.GetRef("5fe3134edacad");
+//   return { stars: json.stargazers_count, data }
+// }
 
 export default Page;

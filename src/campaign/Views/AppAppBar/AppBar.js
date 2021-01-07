@@ -5,11 +5,11 @@ import TagLogin from './TagLogin';
 import Timer from './Timer';
 import ScrollTimer from './ScrollTimer';
 
-const AppBar = ({refData, ref}) => {
+const AppBar = ({refData, refs}) => {
   return (
     <div className="container">
       <Logo />
-      {refData === false ? <Login /> : <TagLogin refData={refData} ref={ref} />}
+      {refData === false ? <Login /> : <TagLogin refData={refData} refs={refs} />}
       <Timer />
       <ScrollTimer />
     </div>

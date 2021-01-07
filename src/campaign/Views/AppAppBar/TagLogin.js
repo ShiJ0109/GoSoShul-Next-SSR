@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
-const TagLogin = ({ refData, ref }) => {
+const TagLogin = ({ refData, refs }) => {
   const navigate = useNavigate();
   return (
     <div className="buy-button">
@@ -10,7 +10,7 @@ const TagLogin = ({ refData, ref }) => {
           href="#"
           className="btn signupBtn btn-main2 login-btn-main2"
           onClick={() => {
-            navigate(`/donate:${ref}`);
+            navigate(`/donate:${refs}`);
           }}
         >
           Join

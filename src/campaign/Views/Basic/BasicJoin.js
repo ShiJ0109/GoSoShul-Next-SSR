@@ -1,7 +1,8 @@
+import { Refresh } from '@material-ui/icons';
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
-const BasicJoin = ({ refData, shulName, ref }) => {
+const BasicJoin = ({ refData, shulName, refs }) => {
   const navigate = useNavigate();
   return (
     <div className="col-lg-6 col-md-7col-lg-6 col-md-6 col-sm-6">
@@ -41,7 +42,7 @@ const BasicJoin = ({ refData, shulName, ref }) => {
             href="#"
             className="btn btn-padding-chng go-btn-1"
             onClick={() => {
-              navigate(`/donate:${ref}`);
+              navigate(`/donate:${refs}`);
             }}
           >
             {' '}

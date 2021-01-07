@@ -8,10 +8,10 @@ import store from 'store/store';
 
 class MyApp extends App {
   render() {
-    const { Component, pageProps } = this.props;
+    const { Component, pageProps, originalUrl, data } = this.props;
     return (
       <Container>
-        <Component {...pageProps} />
+        <Component data={data} {...pageProps} />
       </Container>
     );
   }

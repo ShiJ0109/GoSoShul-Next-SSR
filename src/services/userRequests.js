@@ -8,7 +8,7 @@ const getAuthToken = () => {
 export const GetRef = (ref_token) => {
   return axios
     // // debug mode for Tagging
-    // .post('http://192.168.108.83:8035/gososhul/user/get_ref', { ref_token }, {
+    // .post('http://localhost:8035/GoSoShul-API/user/get_ref', { ref_token }, {
     .post(requestParams.userUrls.getRef, { ref_token }, {
       headers: {
         'content-type': 'application/json',

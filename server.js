@@ -25,6 +25,7 @@ async function start() {
       if(requestDecodedArray[1]!=='shul'
             && requestDecodedArray[1] !== 'login'
             && requestDecodedArray[1] !== 'forgetpassword'
+            && requestDecodedArray[1] !== 'app'
             && requestDecodedArray[1] !== 'user')
         return handle(req, res);
       const pathName = req.originalUrl;

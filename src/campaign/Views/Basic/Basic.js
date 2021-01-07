@@ -3,7 +3,7 @@ import BasicContainer from './BasicContainer';
 import BasicTagContainer from './BasicTagContainer';
 
 const Basic = ({
-  refData, shulName, videoLink, ref
+  refData, shulName, videoLink, refs
 }) => {
   return (
     <section className="bg-half-170  d-table w-100 padding-header1" id="home">
@@ -15,7 +15,7 @@ const Basic = ({
             refData={refData.ref}
             shulName={shulName}
             videoLink={videoLink}
-            ref={ref}
+            refs={refs}
           />
         )
 }

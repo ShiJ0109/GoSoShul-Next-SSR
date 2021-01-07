@@ -69,20 +69,20 @@ const AllShul = dynamic(() => import('campaign/AllShuls'), {
 
 
 const routes = [
-  // {
-  //   path: 'app',
-  //   element: <DashboardLayout />,
-  //   children: [
-  //     { path: 'account', element: <AccountView /> },
-  //     { path: 'customers', element: <CustomerListView /> },
-  //     { path: 'dashboard', element: <DashboardView /> },
-  //     { path: 'products', element: <ProductListView /> },
-  //     { path: 'settings', element: <SettingsView /> },
-  //     { path: '*', element: <Navigate to="/404" /> },
-  //     { path: 'test', element: <SocialTest /> },
-  //     { path: 'check', element: <SocialCheck /> },
-  //   ]
-  // },
+  {
+    path: 'app',
+    element: <DashboardLayout />,
+    children: [
+      { path: 'account', element: <AccountView /> },
+      { path: 'customers', element: <CustomerListView /> },
+      { path: 'dashboard', element: <DashboardView /> },
+      { path: 'products', element: <ProductListView /> },
+      { path: 'settings', element: <SettingsView /> },
+      { path: '*', element: <Navigate to="/404" /> },
+      { path: 'test', element: <SocialTest /> },
+      { path: 'check', element: <SocialCheck /> },
+    ]
+  },
   // {
   //   path: '/',
   //   element: <Outlet />,
