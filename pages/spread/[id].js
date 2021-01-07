@@ -60,7 +60,14 @@ const Artists = lazy(() => import('campaign/Home.css'));
 
 const Home = ({ data }) => {
   const [scriptLoaded, setScriptLoaded] = useState(false);
-  const ref = data.params[2];
+  let ref = "";
+  try{
+    ref = typeof data.params !== undefined && data.params.length > 2 && data.params[2];
+
+  }
+  catch(e){
+
+  }
   // states for data porting
   const [Id, setId] = useState(false);
   // data from ref tocken
@@ -99,7 +106,7 @@ const Home = ({ data }) => {
         });
 
       // check props ref Data
-      if(data.fetchData.error) {
+      if(data.fetchData.error || typeof data === undefined) {
         setError(data.fetchData.error);
         return;
       }
@@ -175,8 +182,7 @@ const Home = ({ data }) => {
         <script src="/js/bootstrap.bundle.min.js"></script>
         <script src="/js/app.js"></script>
       </Head>
-      <fragment>
-        <NextSeo
+      <NextSeo
           title="Video Page Title"
           description="Description of video page"
           openGraph={{
@@ -223,6 +229,7 @@ const Home = ({ data }) => {
             site_name: 'SiteName',
           }}
         />
+      <fragment>
         <p>{JSON.stringify(socialShare)}</p>
         <Helmet defer={false}>
           <style type="text/css">
